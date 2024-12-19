@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000000;
+}
+
+#header {
+    background-color: #0000007c;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+.right-head {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+
+}
+
+.container {
+    margin: 42px;
+    width: 94%;
+}
+.text{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 90px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.main{
+    margin-top: 20px;
+    width:60%;
+}
+
+.collage{
+    display: grid;
+    gap: 48px;
+    padding: 48px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.collage .column{
+    grid-template-columns: repeat(3, 1fr);
+}
+.collage .column img{
+    width: 100%;
+    height: auto;
+}
+
+.textunder{
+    color: #806f6b;
+}
+
+.About{
+    padding: 96px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    color: #E4D7E4;
+    line-height: 52px;
+    font-style: "Domine";
+    width: 100%;
+}
+.service{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    line-height: 1.6;
+    font-weight: 560;
+    font-size: 1.7vw;
+}
+.servicetext{
+    font-size: 2vw;
+}
+.reviewtext{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 550;
+    color: #291d1b;
+}
+
+.tagline{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.taglinetext{
+    font-size: 70px;
+}
+
+.image h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+#project {
+    min-height: 100vh;
+    padding-block: 52px;
+    display: flex;
+    gap: 52px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    transform-origin: bottom;
+    gap: 8px;
+}
+
+.project h5 {
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.project h6 {
+    font-family: "Outfit", serif;
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 62%;
+    color: white;
+}
